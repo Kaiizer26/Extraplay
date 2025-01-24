@@ -21,48 +21,22 @@ if (!isset($_SESSION['username'])) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
 </head>
 <style>
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    -webkit-box-shadow: 0 8px 10px -6px #000000;
-    -moz-box-shadow: 0 8px 10px -6px #000000;
-    box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
-  }
-
-  nav h1 {
-    padding-right: 5px;
-    background-image: linear-gradient(65deg, #AE7D15, #ECD24D);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-  }
-
-  nav svg {
-    width: 10%;
-    padding: 1em;
-  }
-
-  main {
+  .motus-main {
     margin-top: 2em;
     text-align: center;
   }
 
-  main article {
+  .motus-main article {
     display: flex;
     justify-content: center;
   }
 
-  main section {
+  .motus-main section {
     display: grid;
     gap: 5px;
   }
 
-  main section div {
+  .motus-main section div {
     padding: 8px;
     width: 27px;
     height: 25px;
@@ -177,7 +151,7 @@ if (!isset($_SESSION['username'])) {
     }
   }">
 
-  <main class="main-page">
+  <main class="motus-main">
     <p>Devinez le mot !</p>
     <!-- GRID -->
     <article class="grid-container">
