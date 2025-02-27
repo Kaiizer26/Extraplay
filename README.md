@@ -1,6 +1,6 @@
 # Application Todo List
 
-Une application simple de gestion de tâches construite avec PHP et PostgreSQL.
+Une application inspiré de Jeux.fr, offrant divers jeux en ligne avec des fonctionnalités telles que l'inscription, la gestion complète des avis (CRUD) et trois jeux opérationnels.
 
 ## 🚀 Fonctionnalités
 
@@ -245,14 +245,3 @@ L'application utilise trois services Docker :
 - Requêtes préparées pour la base de données
 - Validation des entrées utilisateur
 
-## 🤝 Contribution
-
-1. Fork le projet
-2. Créez votre branche (`git checkout -b feature/AmazingFeature`)
-3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
-## 📄 Licence
-
-Distributed under the MIT License. See `LICENSE` for more information.
